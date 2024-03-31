@@ -1,0 +1,56 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"tests/test_case1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "test_case1",
+			"destination" : "C:/Users/cvs0_/Documents/GitHub/exe_to_dll/out/install/x64-Debug",
+			"paths" : 
+			[
+				"tests/test_case1/test_case1.exe"
+			],
+			"targetId" : "test_case1::@408ca188e063d3342c96",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "test_case1",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "test_case1::@408ca188e063d3342c96",
+				"index" : 2
+			},
+			"destination" : "C:/Users/cvs0_/Documents/GitHub/exe_to_dll/out/install/x64-Debug",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tests/test_case1",
+		"source" : "tests/test_case1"
+	}
+}

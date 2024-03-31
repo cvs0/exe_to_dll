@@ -1,0 +1,162 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libpeconv/libpeconv",
+					"jsonFile" : "directory-libpeconv.libpeconv-Debug-77c753192165146e6f26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libpeconv/libpeconv",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "exe_to_dll",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-exe_to_dll-Debug-6bdc0295e739b4361666.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "exe_to_dll",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "tests/test_case1",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tests.test_case1-Debug-1eaa909f93366b4d6117.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "tests/test_case1",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "exe_to_dll_proj"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "libpeconv",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "exe_to_dll",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "test_case1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "exe_to_dll::@7ae3136fdc58ff34460a",
+					"jsonFile" : "target-exe_to_dll-Debug-f741b04480d676a2da8f.json",
+					"name" : "exe_to_dll",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libpeconv::@2b3dbb6e53fc8932f253",
+					"jsonFile" : "target-libpeconv-Debug-d53822bc649c72c37bcd.json",
+					"name" : "libpeconv",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_case1::@408ca188e063d3342c96",
+					"jsonFile" : "target-test_case1-Debug-195d53a671ad1abb2012.json",
+					"name" : "test_case1",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/cvs0_/Documents/GitHub/exe_to_dll/out/build/x64-Debug",
+		"source" : "C:/Users/cvs0_/Documents/GitHub/exe_to_dll"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

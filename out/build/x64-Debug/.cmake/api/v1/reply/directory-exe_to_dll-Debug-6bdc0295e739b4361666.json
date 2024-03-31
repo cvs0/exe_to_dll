@@ -1,0 +1,56 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"exe_to_dll/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "exe_to_dll",
+			"destination" : "C:/Users/cvs0_/Documents/GitHub/exe_to_dll/out/install/x64-Debug",
+			"paths" : 
+			[
+				"exe_to_dll/exe_to_dll.exe"
+			],
+			"targetId" : "exe_to_dll::@7ae3136fdc58ff34460a",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "exe_to_dll",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "exe_to_dll::@7ae3136fdc58ff34460a",
+				"index" : 0
+			},
+			"destination" : "C:/Users/cvs0_/Documents/GitHub/exe_to_dll/out/install/x64-Debug",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "exe_to_dll",
+		"source" : "exe_to_dll"
+	}
+}

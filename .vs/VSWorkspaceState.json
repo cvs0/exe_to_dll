@@ -1,0 +1,14 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\exe_to_dll"
+  ],
+  "SelectedNode": "\\exe_to_dll\\main.cpp",
+  "PreviewInSolutionExplorer": false
+}
