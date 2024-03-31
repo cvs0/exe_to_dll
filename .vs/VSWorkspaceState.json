@@ -7,8 +7,9 @@
   },
   "ExpandedNodes": [
     "",
-    "\\exe_to_dll"
+    "\\exe_to_dll",
+    "\\out\\build"
   ],
-  "SelectedNode": "\\exe_to_dll\\main.cpp",
+  "SelectedNode": "\\exe_to_dll\\pe_handler.cpp",
   "PreviewInSolutionExplorer": false
 }
